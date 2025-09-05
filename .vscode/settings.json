@@ -1,0 +1,32 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "html": "html",
+    "javascript": "javascript",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "class:list"
+  ],
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/.svn/**"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    "tw=\"([^\"]*)",
+    "tw={\"([^\"}]*)",
+    "tw\\.\\w+`([^`]*)",
+    "tw\\(.*?\\)`([^`]*)"
+  ],
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false
+}
